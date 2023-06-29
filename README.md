@@ -16,6 +16,8 @@ Sample codes for TITECH lecture "Interdisciplinary Research FUndamentals II 3"
 - The code solves IK for a 2-link planar robot.
 - I implemented both analytical and numerical methods for getting Jabobian. Try them.
 
+![Example animation](https://github.com/tak-kanno/robot-lecture/blob/main/docs/imgs/animation.gif)
+
 ## Usage
 - Run `python numeric_ik.py`. It creates a series of images in `frames` folder, that shows the progress of IK solving.
 - Use `create_animation.py` to create an animation from the saved data.
