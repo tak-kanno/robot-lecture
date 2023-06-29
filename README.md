@@ -1,6 +1,7 @@
 # robot-lecture
 Sample codes for TITECH lecture "Interdisciplinary Research FUndamentals II 3"
 
+
 # Tested environment
 - Ubuntu 20.04.2 LTS on WSL2
 - Python 3.8.10
@@ -9,6 +10,12 @@ Sample codes for TITECH lecture "Interdisciplinary Research FUndamentals II 3"
     - matplotlib 3.7.1
     - opencv-python 4.7.0.72
 
-# Usage
+# Numeric IK
+## About
+- `numeric_ik.py` is a sample code for numeric IK solving.
+- The code solves IK for a 2-link planar robot.
+- I implemented both analytical and numerical methods for getting Jabobian. Try them.
+
+## Usage
 - Run `python numeric_ik.py`. It creates a series of images in `frames` folder, that shows the progress of IK solving.
 - Use `create_animation.py` to create an animation from the saved data.
