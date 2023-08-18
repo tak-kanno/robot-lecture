@@ -18,6 +18,11 @@ Sample codes for TITECH lecture "Interdisciplinary Research FUndamentals II 3"
 
 ![Example animation](https://github.com/tak-kanno/robot-lecture/blob/main/docs/imgs/animation.gif)
 
+## Files
+- `numeric_ik.py`: Simple 2-link inverse kinematics problem
+- `numeric_ik_3link.py`: 3-link inverse kinematics problem, with end-effector orientation specified
+- `numeric_ik_3link_n.py`: 3-link inverse kinematics problem, with a constraint that the third link passes the specified point
+
 ## Usage
 - Run `python numeric_ik.py`. It creates a series of images in `frames` folder, that shows the progress of IK solving.
 - Use `create_animation.py` to create an animation from the saved data.
